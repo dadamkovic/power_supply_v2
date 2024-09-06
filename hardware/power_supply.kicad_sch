@@ -1,0 +1,48 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 3169906c-dcce-4761-b072-54530f8b9e50)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 30.48 29.21) (size 43.18 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a50540a9-48b1-49df-82d6-05c97d35c6f8)
+    (property "Sheetname" "usb_input" (at 30.48 28.4984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "usb_input.kicad_sch" (at 30.48 52.6546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "power_supply"
+        (path "/3169906c-dcce-4761-b072-54530f8b9e50" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 106.045 28.575) (size 38.1 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ae47f521-a2a9-4995-ab61-abb7e14ccfeb)
+    (property "Sheetname" "battery_management" (at 106.045 27.8634 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "battery_management_sch.kicad_sch" (at 106.045 49.4796 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "power_supply"
+        (path "/3169906c-dcce-4761-b072-54530f8b9e50" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

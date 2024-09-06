@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=BQ7791501PWR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=24
+Version=1.1
+Released=2020-11-25 09:36:31
+Downloaded=2024-09-05 03:45:04
+3D=Y
