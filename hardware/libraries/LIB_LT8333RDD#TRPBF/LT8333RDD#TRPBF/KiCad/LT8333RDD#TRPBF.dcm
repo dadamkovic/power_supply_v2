@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT8333RDD#TRPBF
+D Switching Voltage Regulators Low IQ Boost/SEPIC/Inverting Converter with 3A, 40V Switch
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/lt8333.pdf
+$ENDCMP
+#
+#End Doc Library

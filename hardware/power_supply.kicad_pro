@@ -334,6 +334,10 @@
     [
       "a50540a9-48b1-49df-82d6-05c97d35c6f8",
       "usb_input"
+    ],
+    [
+      "c8f8e344-9bb1-45b9-bd6e-88d337ce085f",
+      "voltage_regulation_stage_1"
     ]
   ],
   "text_variables": {}
