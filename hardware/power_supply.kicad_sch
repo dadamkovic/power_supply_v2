@@ -8,6 +8,23 @@
   )
 
 
+  (sheet (at 178.435 29.21) (size 39.37 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 195b7be9-6431-4daa-bb39-18c10f389395)
+    (property "Sheetname" "voltage_regualtion_stage_2" (at 178.435 28.4984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "voltage_regualtion_stage_2.kicad_sch" (at 178.435 52.6546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "power_supply"
+        (path "/3169906c-dcce-4761-b072-54530f8b9e50" (page "5"))
+      )
+    )
+  )
+
   (sheet (at 30.48 29.21) (size 43.18 22.86) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))

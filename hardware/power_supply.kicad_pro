@@ -338,6 +338,10 @@
     [
       "c8f8e344-9bb1-45b9-bd6e-88d337ce085f",
       "voltage_regulation_stage_1"
+    ],
+    [
+      "195b7be9-6431-4daa-bb39-18c10f389395",
+      "voltage_regualtion_stage_2"
     ]
   ],
   "text_variables": {}
