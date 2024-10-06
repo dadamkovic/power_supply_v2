@@ -1,4 +1,4 @@
-21578012239467544
+21581468577393356
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89298,6 +89298,13 @@ Battery_18650
 0
 2
 2
+User_Inductor
+Inductor_Sumida_7.3_6.8x3.0
+
+
+0
+2
+2
 User_LDC_Display
 VIM878DPRCSLV
 
@@ -89326,6 +89333,13 @@ Power Supply
 0
 6
 6
+User_Thermistor
+Thermistor_AWG30
+
+
+0
+0
+0
 User_USB_Protection
 UQFN2020-12
 U-QFN2020-12

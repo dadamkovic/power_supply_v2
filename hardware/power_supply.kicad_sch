@@ -2,20 +2,20 @@
 
   (uuid 3169906c-dcce-4761-b072-54530f8b9e50)
 
-  (paper "A4")
+  (paper "USLetter")
 
   (lib_symbols
   )
 
 
-  (sheet (at 178.435 29.21) (size 39.37 22.86) (fields_autoplaced)
+  (sheet (at 191.77 50.165) (size 39.37 22.86) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 195b7be9-6431-4daa-bb39-18c10f389395)
-    (property "Sheetname" "voltage_regualtion_stage_2" (at 178.435 28.4984 0)
+    (property "Sheetname" "voltage_regualtion_stage_2" (at 191.77 49.4534 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "voltage_regualtion_stage_2.kicad_sch" (at 178.435 52.6546 0)
+    (property "Sheetfile" "voltage_regualtion_stage_2.kicad_sch" (at 191.77 73.6096 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -25,14 +25,14 @@
     )
   )
 
-  (sheet (at 30.48 29.21) (size 43.18 22.86) (fields_autoplaced)
+  (sheet (at 22.86 22.225) (size 31.75 71.755) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid a50540a9-48b1-49df-82d6-05c97d35c6f8)
-    (property "Sheetname" "usb_input" (at 30.48 28.4984 0)
+    (property "Sheetname" "usb_input" (at 22.86 21.5134 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "usb_input.kicad_sch" (at 30.48 52.6546 0)
+    (property "Sheetfile" "usb_input.kicad_sch" (at 22.86 94.5646 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -42,14 +42,14 @@
     )
   )
 
-  (sheet (at 85.09 29.21) (size 38.1 22.86) (fields_autoplaced)
+  (sheet (at 64.77 22.225) (size 31.75 71.12) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid ae47f521-a2a9-4995-ab61-abb7e14ccfeb)
-    (property "Sheetname" "battery_management" (at 85.09 28.4984 0)
+    (property "Sheetname" "battery_management" (at 64.77 21.5134 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "battery_management_sch.kicad_sch" (at 85.09 52.6546 0)
+    (property "Sheetfile" "battery_management_sch.kicad_sch" (at 64.77 93.9296 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -59,14 +59,14 @@
     )
   )
 
-  (sheet (at 130.81 29.21) (size 38.735 22.86) (fields_autoplaced)
+  (sheet (at 107.315 22.225) (size 31.75 71.12) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid c8f8e344-9bb1-45b9-bd6e-88d337ce085f)
-    (property "Sheetname" "voltage_regulation_stage_1" (at 130.81 28.4984 0)
+    (property "Sheetname" "voltage_regulation_stage_1" (at 107.315 21.5134 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "voltage_regulation_stage_1.kicad_sch" (at 130.81 52.6546 0)
+    (property "Sheetfile" "voltage_regulation_stage_1.kicad_sch" (at 107.315 93.9296 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
