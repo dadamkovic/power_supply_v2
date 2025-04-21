@@ -1,0 +1,16 @@
+LTspice 24.1.4 for Windows
+Circuit: D:\daniel\projects\power_supply\hardware\simulations\SEPIC_simulation.net
+Start Time: Fri Apr 18 18:09:16 2025
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 37.074 seconds.
+
+Files loaded:
+D:\daniel\projects\power_supply\hardware\simulations\SEPIC_simulation.net
+C:\Users\Daniel\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\Daniel\AppData\Local\LTspice\lib\cmp\standard.mos
+
