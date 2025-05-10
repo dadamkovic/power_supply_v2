@@ -13,7 +13,6 @@ V4 N008 0 PULSE(0 1.2 1m 0.2m 1n 100)
 C3 Vout 0 330µ V=50 Irms=1.404 Rser=0.084 Lser=4.3n mfg="Würth Elektronik" pn="860160675028 WCAP-ATLL 10x25" type="Al electrolytic"
 V1 N004 0 11
 V3 SW 0 PULSE(0 12 0 10n 10n 1.96u 5u)
-I2 Vout 0 6 load
 C4 Vout 0 1µ V=50 Irms=0 Rser=0.0051 Lser=500p mfg="Würth Elektronik" pn="885012210031 WCAP-CSGP 1812" type="X7R"
 C5 Vout 0 1µ V=50 Irms=0 Rser=0.0051 Lser=500p mfg="Würth Elektronik" pn="885012210031 WCAP-CSGP 1812" type="X7R"
 C7 N003 0 1µ V=50 Irms=0 Rser=0.0051 Lser=500p mfg="Würth Elektronik" pn="885012210031 WCAP-CSGP 1812" type="X7R"
@@ -38,6 +37,7 @@ D1 N001 N003 RBR15BGE60A
 L2 VIN N002 10µ Ipk=13 Rser=13.9m
 L1 0 N001 10µ Ipk=13 Rser=13.9m
 R5 VIN N004 10m
+V2 Vout 0 50
 .model D D
 .lib C:\Users\Daniel\AppData\Local\LTspice\lib\cmp\standard.dio
 .model NMOS NMOS
