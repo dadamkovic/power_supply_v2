@@ -1,0 +1,165 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3169906c-dcce-4761-b072-54530f8b9e50")
+	(paper "USLetter")
+	(lib_symbols)
+	(sheet
+		(at 173.355 21.59)
+		(size 45.72 71.12)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "43df5cf9-1069-4fd9-99ca-fddc69402b13")
+		(property "Sheetname" "external_interface"
+			(at 173.355 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "external_interface.kicad_sch"
+			(at 173.355 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "battery_pack"
+				(path "/3169906c-dcce-4761-b072-54530f8b9e50"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 21.59)
+		(size 35.56 71.12)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "927765f4-8c28-480c-94fc-b5ddcf60099e")
+		(property "Sheetname" "uc_stage"
+			(at 119.38 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "uc_stage.kicad_sch"
+			(at 119.38 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "battery_pack"
+				(path "/3169906c-dcce-4761-b072-54530f8b9e50"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 22.86 22.225)
+		(size 31.75 71.755)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a50540a9-48b1-49df-82d6-05c97d35c6f8")
+		(property "Sheetname" "usb_input"
+			(at 22.86 21.5134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_input.kicad_sch"
+			(at 22.86 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "battery_pack"
+				(path "/3169906c-dcce-4761-b072-54530f8b9e50"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.77 22.225)
+		(size 31.75 71.12)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ae47f521-a2a9-4995-ab61-abb7e14ccfeb")
+		(property "Sheetname" "battery_management"
+			(at 64.77 21.5134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery_management_sch.kicad_sch"
+			(at 64.77 93.9296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "battery_pack"
+				(path "/3169906c-dcce-4761-b072-54530f8b9e50"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "0")
+		)
+	)
+)

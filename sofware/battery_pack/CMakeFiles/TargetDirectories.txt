@@ -1,0 +1,5 @@
+D:/daniel/projects/power_supply/sofware/battery_pack/CMakeFiles/battery_pack.dir
+D:/daniel/projects/power_supply/sofware/battery_pack/CMakeFiles/edit_cache.dir
+D:/daniel/projects/power_supply/sofware/battery_pack/CMakeFiles/rebuild_cache.dir
+D:/daniel/projects/power_supply/sofware/battery_pack/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+D:/daniel/projects/power_supply/sofware/battery_pack/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir

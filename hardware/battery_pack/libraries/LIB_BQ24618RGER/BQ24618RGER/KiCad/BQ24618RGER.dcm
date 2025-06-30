@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BQ24618RGER
+D Switching Battery Charger Controller Li-Ion/Li-Pol 10000mA 2.1V to 26V 24-Pin VQFN EP T/R
+K
+F https://www.arrow.com/en/products/bq24618rger/texas-instruments
+$ENDCMP
+#
+#End Doc Library
