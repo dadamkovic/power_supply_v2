@@ -498,6 +498,7 @@
       "Net-(L301-Pad2)": "Power",
       "Net-(NT301-Pad1)": "Power",
       "Net-(NT305-Pad2)": "Power",
+      "Net-(NT334-Pad2)": "Power",
       "Net-(NT38-Pad1)": "Power",
       "Net-(NT44-Pad2)": "Power",
       "Net-(NT46-Pad2)": "Power",
@@ -557,14 +558,14 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "outputs/3D/battery_pack.step",
       "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 400,
     "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {

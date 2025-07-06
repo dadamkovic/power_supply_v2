@@ -1345,7 +1345,7 @@
 				)
 			)
 			(property "Price" "2.2"
-				(at 0 0 0)
+				(at -0.762 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1664,6 +1664,24 @@
 						)
 					)
 					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -35.56 0)
+					(length 2.54) hide
+					(name "TP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3362,12 +3380,6 @@
 		(uuid "7214eb57-6c12-4ce5-a5da-71ddbaf3dc18")
 	)
 	(junction
-		(at 350.52 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "74f17963-11e1-4b7f-bb69-42fafe480ad3")
-	)
-	(junction
 		(at 166.37 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3702,16 +3714,6 @@
 			(type default)
 		)
 		(uuid "09911d75-fa80-4208-8ed4-4bc927c4cfec")
-	)
-	(wire
-		(pts
-			(xy 350.52 175.26) (xy 350.52 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bd3a329-bb6a-4924-bf54-5dce5ddde05c")
 	)
 	(wire
 		(pts
@@ -4065,7 +4067,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 175.26) (xy 350.52 175.26)
+			(xy 243.84 175.26) (xy 249.555 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4162,26 +4164,6 @@
 			(type default)
 		)
 		(uuid "615e3db5-d6b1-40f8-bcaf-367f4d431239")
-	)
-	(wire
-		(pts
-			(xy 350.52 186.69) (xy 350.52 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "617ad72d-a969-4476-85fc-413f61b21fb8")
-	)
-	(wire
-		(pts
-			(xy 350.52 175.26) (xy 354.33 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "618944ea-36f8-41d5-90c5-224893c29d43")
 	)
 	(wire
 		(pts
@@ -4412,16 +4394,6 @@
 			(type default)
 		)
 		(uuid "8803cca1-64a9-46ea-871e-2fe6d4bafb99")
-	)
-	(wire
-		(pts
-			(xy 350.52 175.26) (xy 350.52 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "885c1d7a-8c3f-428b-84a3-28c5ff937995")
 	)
 	(wire
 		(pts
@@ -5637,28 +5609,6 @@
 		(uuid "79476688-cec4-4add-985c-355414e56147")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 324.1553 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_C_GPIO"
-		(shape bidirectional)
-		(at 354.33 175.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "87c2671d-06ce-4f24-ae20-130da572323c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 369.8376 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8053,82 +8003,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 350.52 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59d6af5b-e347-49b7-b5ad-e5a60d10bb6c")
-		(property "Reference" "R209"
-			(at 352.425 183.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 352.425 186.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 350.52 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 350.52 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 350.52 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "059380d7-eb60-493a-96c0-c73a8d605d45")
-		)
-		(pin "2"
-			(uuid "c2bad5e9-0c2a-4168-9e03-41359b176779")
-		)
-		(instances
-			(project "power_supply"
-				(path "/3169906c-dcce-4761-b072-54530f8b9e50/a50540a9-48b1-49df-82d6-05c97d35c6f8"
-					(reference "R209")
-					(unit 1)
-				)
-			)
-			(project "battery_charging_devboard"
-				(path "/451b7129-01d5-46cf-a4e9-c4e0c27ff0b6/beffddf7-e895-42d7-ba8a-5d365171da10"
-					(reference "R110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 151.13 155.575 0)
 		(unit 1)
@@ -8353,7 +8227,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 350.52 173.99 0)
+		(at 249.555 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8362,7 +8236,7 @@
 		(fields_autoplaced yes)
 		(uuid "71ff1813-367d-492c-bb92-c00045ff8b90")
 		(property "Reference" "TPe213"
-			(at 353.06 170.053 0)
+			(at 252.095 171.323 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8371,7 +8245,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 353.06 172.593 0)
+			(at 252.095 173.863 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8381,7 +8255,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 355.6 173.99 0)
+			(at 254.635 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8390,7 +8264,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 355.6 173.99 0)
+			(at 254.635 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8399,7 +8273,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 350.52 173.99 0)
+			(at 249.555 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9563,79 +9437,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 350.52 193.04 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8af61fd-4c45-48a8-87b1-7ca945eb5022")
-		(property "Reference" "#PWR0206"
-			(at 350.52 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 350.52 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 350.52 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 350.52 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 350.52 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "744b5526-c8d3-4bb5-80e9-630c2d6e5ec0")
-		)
-		(instances
-			(project "power_supply"
-				(path "/3169906c-dcce-4761-b072-54530f8b9e50/a50540a9-48b1-49df-82d6-05c97d35c6f8"
-					(reference "#PWR0206")
-					(unit 1)
-				)
-			)
-			(project "battery_charging_devboard"
-				(path "/451b7129-01d5-46cf-a4e9-c4e0c27ff0b6/beffddf7-e895-42d7-ba8a-5d365171da10"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 246.38 147.32 0)
 		(unit 1)
@@ -10405,7 +10206,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.75x2.75mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.65x2.65mm"
 			(at 222.25 134.62 0)
 			(effects
 				(font
@@ -10521,6 +10322,9 @@
 		)
 		(pin "16"
 			(uuid "49b2671e-bb5d-4c5b-a407-44a3574eb286")
+		)
+		(pin "25"
+			(uuid "4d0240c0-dc60-4644-ab2c-e466b73e67a0")
 		)
 		(instances
 			(project ""

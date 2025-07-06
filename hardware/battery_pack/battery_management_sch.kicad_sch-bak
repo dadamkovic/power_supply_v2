@@ -1229,7 +1229,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 2.794 4.064 0)
+				(at -1.016 2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1237,7 +1237,7 @@
 				)
 			)
 			(property "Value" ""
-				(at 9.144 11.176 0)
+				(at 5.334 9.906 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1245,7 +1245,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 9.144 11.176 0)
+				(at 5.334 9.906 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1254,7 +1254,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 9.144 11.176 0)
+				(at 5.334 9.906 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1263,7 +1263,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 9.144 11.176 0)
+				(at 5.334 9.906 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1280,140 +1280,8 @@
 				)
 			)
 			(symbol "Q_NMOS_S2G2S1G1D1D2_0_1"
-				(polyline
-					(pts
-						(xy -1.016 0) (xy -3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.905) (xy -1.016 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.27) (xy -0.508 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 0.508) (xy -0.508 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 2.286) (xy -0.508 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 0) (xy 0.762 0.381) (xy 0.762 -0.381) (xy -0.254 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0.508) (xy 1.651 0.381) (xy 2.413 0.381) (xy 2.54 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
-					(center 0.381 0)
+					(center -3.429 -1.27)
 					(radius 2.794)
 					(stroke
 						(width 0.254)
@@ -1424,7 +1292,7 @@
 					)
 				)
 				(circle
-					(center 1.27 -1.778)
+					(center -2.54 -3.048)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -1435,7 +1303,7 @@
 					)
 				)
 				(circle
-					(center 1.27 1.778)
+					(center -2.54 0.508)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -1445,10 +1313,142 @@
 						(type outline)
 					)
 				)
+				(polyline
+					(pts
+						(xy -4.826 -1.27) (xy -7.62 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.826 0.635) (xy -4.826 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 -2.54) (xy -4.318 -3.556)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 -0.762) (xy -4.318 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 1.016) (xy -4.318 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy -2.54 -1.27) (xy -4.318 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 -3.048) (xy -1.778 -3.048) (xy -1.778 0.508) (xy -4.318 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 -1.27) (xy -3.048 -0.889) (xy -3.048 -1.651) (xy -4.064 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 -0.762) (xy -2.159 -0.889) (xy -1.397 -0.889) (xy -1.27 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.889) (xy -2.159 -1.524) (xy -1.397 -1.524) (xy -1.778 -0.889)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
 			(symbol "Q_NMOS_S2G2S1G1D1D2_1_1"
 				(pin passive line
-					(at 1.27 -5.08 90)
+					(at -2.54 -6.35 90)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1466,7 +1466,7 @@
 					)
 				)
 				(pin input line
-					(at -6.35 0 0)
+					(at -10.16 -1.27 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1484,7 +1484,7 @@
 					)
 				)
 				(pin passive line
-					(at 1.27 5.08 270)
+					(at -2.54 3.81 270)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1501,10 +1501,28 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -2.54 3.81 270)
+					(length 2.54) hide
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "Q_NMOS_S2G2S1G1D1D2_2_1"
 				(pin input line
-					(at 1.27 -5.08 90)
+					(at -2.54 -6.35 90)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1522,7 +1540,7 @@
 					)
 				)
 				(pin input line
-					(at -6.35 0 0)
+					(at -10.16 -1.27 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1540,7 +1558,7 @@
 					)
 				)
 				(pin input line
-					(at 1.27 5.08 270)
+					(at -2.54 3.81 270)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1550,6 +1568,24 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 3.81 270)
+					(length 2.54) hide
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4208,6 +4244,24 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.54) hide
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "Q_NMOS_S2G2S1G1D1D2_1_2_1"
 				(pin input line
@@ -4264,326 +4318,9 @@
 						)
 					)
 				)
-			)
-		)
-		(symbol "Q_NMOS_S2G2S1G1D1D2_2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 2.794 4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 9.144 11.176 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 9.144 11.176 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 9.144 11.176 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 9.144 11.176 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Q_NMOS_S2G2S1G1D1D2_2_0_1"
-				(polyline
-					(pts
-						(xy -1.016 0) (xy -3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.905) (xy -1.016 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.27) (xy -0.508 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 0.508) (xy -0.508 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 2.286) (xy -0.508 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 0) (xy 0.762 0.381) (xy 0.762 -0.381) (xy -0.254 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0.508) (xy 1.651 0.381) (xy 2.413 0.381) (xy 2.54 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.381 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Q_NMOS_S2G2S1G1D1D2_2_1_1"
-				(pin passive line
-					(at 1.27 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 5.08 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Q_NMOS_S2G2S1G1D1D2_2_2_1"
-				(pin input line
-					(at 1.27 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 1.27 5.08 270)
-					(length 2.54)
+					(length 2.54) hide
 					(name ""
 						(effects
 							(font
@@ -4591,342 +4328,7 @@
 							)
 						)
 					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Q_NMOS_S2G2S1G1D1D2_3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 2.794 4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 9.144 11.176 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 9.144 11.176 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 9.144 11.176 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 9.144 11.176 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Q_NMOS_S2G2S1G1D1D2_3_0_1"
-				(polyline
-					(pts
-						(xy -1.016 0) (xy -3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.905) (xy -1.016 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.27) (xy -0.508 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 0.508) (xy -0.508 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 2.286) (xy -0.508 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 0) (xy 0.762 0.381) (xy 0.762 -0.381) (xy -0.254 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0.508) (xy 1.651 0.381) (xy 2.413 0.381) (xy 2.54 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.381 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Q_NMOS_S2G2S1G1D1D2_3_1_1"
-				(pin passive line
-					(at 1.27 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 5.08 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Q_NMOS_S2G2S1G1D1D2_3_2_1"
-				(pin input line
-					(at 1.27 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 1.27 5.08 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6225,16 +5627,16 @@
 		(uuid "29e3a7b8-0dcf-4d59-a39a-a28babc2cf11")
 	)
 	(junction
-		(at 32.385 218.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2daa4cb5-9c62-4bc7-b480-1a63356892f6")
-	)
-	(junction
 		(at 65.405 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e6e2fa6-7a69-492d-b5e9-dc40969e576f")
+	)
+	(junction
+		(at 27.305 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f024fe5-5a58-4ce1-a7fc-bd79cf0b98d3")
 	)
 	(junction
 		(at 337.82 60.96)
@@ -6265,6 +5667,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34626584-baae-459f-9cf3-9649a38f0a1d")
+	)
+	(junction
+		(at 88.9 160.655)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35bb168a-fd61-43f2-82e2-da621b1145e4")
 	)
 	(junction
 		(at 27.305 218.44)
@@ -6333,12 +5741,6 @@
 		(uuid "44776531-2055-4f79-bb57-77d531844d76")
 	)
 	(junction
-		(at 32.385 198.755)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46b7d5bd-d468-4bc5-a7a9-3e8821d3ed5c")
-	)
-	(junction
 		(at 337.82 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6369,6 +5771,12 @@
 		(uuid "4dc8f028-d153-4b55-95cc-f7381a175309")
 	)
 	(junction
+		(at 27.305 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e5e745b-d284-4950-988f-0b8a0b853ecc")
+	)
+	(junction
 		(at 287.02 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6381,6 +5789,12 @@
 		(uuid "5395ce03-8d05-47e1-872a-9ad4f16fa519")
 	)
 	(junction
+		(at 151.13 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "544d6cc8-3ee2-418f-818e-0657b72c7173")
+	)
+	(junction
 		(at 109.22 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6391,6 +5805,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57ebaa95-978d-4667-828a-6e975ae7f3e9")
+	)
+	(junction
+		(at 27.305 184.785)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "587659b9-0319-4f3a-9c9f-fe77429f71cd")
 	)
 	(junction
 		(at 340.36 67.31)
@@ -6453,12 +5873,6 @@
 		(uuid "6b4bcfa1-face-453d-a262-48426a7b83d6")
 	)
 	(junction
-		(at 32.385 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6bc14f97-ae0c-4b53-b4e6-26934fad337e")
-	)
-	(junction
 		(at 98.425 216.535)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6507,6 +5921,18 @@
 		(uuid "7cbe15a4-7ec5-4581-b8fd-e03f4879a42c")
 	)
 	(junction
+		(at 27.305 224.155)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8031c442-3ef8-4a1a-af67-fd94c1eca467")
+	)
+	(junction
+		(at 27.305 244.475)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "816538c3-1ec9-4f9e-a2d2-b848dd4be2fa")
+	)
+	(junction
 		(at 27.305 221.615)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6535,12 +5961,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8af7dced-baff-4a4e-8cc3-7eb4c104b96e")
-	)
-	(junction
-		(at 88.9 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f7088bd-9e79-4e75-82de-6a8c114802ab")
 	)
 	(junction
 		(at 354.33 96.52)
@@ -6699,18 +6119,6 @@
 		(uuid "bd93df06-3edd-45e2-a79d-ec7d3b54b492")
 	)
 	(junction
-		(at 151.765 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c6e0903c-5dcc-4cdd-91d0-93ba1a2cf4c1")
-	)
-	(junction
-		(at 32.385 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8329eda-61f1-4a85-aeb9-b3a1efd36e75")
-	)
-	(junction
 		(at 78.74 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6745,12 +6153,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d51f80a1-3240-4e3e-8350-7ce96e58f62f")
-	)
-	(junction
-		(at 32.385 238.125)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5a6b66f-042e-4a60-ad32-abe02812ac5d")
 	)
 	(junction
 		(at 328.295 60.96)
@@ -7014,7 +6416,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.305 241.3) (xy 27.305 247.65)
+			(xy 27.305 241.3) (xy 27.305 244.475)
 		)
 		(stroke
 			(width 0)
@@ -7094,16 +6496,6 @@
 	)
 	(wire
 		(pts
-			(xy 32.385 171.45) (xy 32.385 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07c85f5d-2fd2-4b20-b3ac-873a2759a2b2")
-	)
-	(wire
-		(pts
 			(xy 345.44 111.125) (xy 345.44 109.22)
 		)
 		(stroke
@@ -7174,7 +6566,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.305 171.45) (xy 27.305 187.96)
+			(xy 27.305 184.785) (xy 27.305 187.96)
 		)
 		(stroke
 			(width 0)
@@ -7201,16 +6593,6 @@
 			(type default)
 		)
 		(uuid "0cd3155c-41ba-43e8-877d-dc19c7bdb2a5")
-	)
-	(wire
-		(pts
-			(xy 150.495 173.99) (xy 151.765 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dab551d-2c83-4c4e-9a85-a8157a13bf59")
 	)
 	(wire
 		(pts
@@ -7654,7 +7036,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.305 201.295) (xy 27.305 207.645)
+			(xy 27.305 204.47) (xy 27.305 207.645)
 		)
 		(stroke
 			(width 0)
@@ -7834,16 +7216,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.765 173.99) (xy 151.765 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "395eb74d-1a73-4a1a-b4e2-23cf745aab9e")
-	)
-	(wire
-		(pts
 			(xy 90.17 238.125) (xy 90.17 186.69)
 		)
 		(stroke
@@ -7851,6 +7223,16 @@
 			(type default)
 		)
 		(uuid "3b62c028-56a5-444f-8821-02dd71fa3c27")
+	)
+	(wire
+		(pts
+			(xy 27.305 201.295) (xy 27.305 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db9cb9c-8b55-442e-bc3e-58092e5bb9ff")
 	)
 	(wire
 		(pts
@@ -8114,7 +7496,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.145 171.45) (xy 145.415 171.45)
+			(xy 151.13 171.45) (xy 167.005 171.45)
 		)
 		(stroke
 			(width 0)
@@ -8264,6 +7646,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 173.99) (xy 151.13 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "567e094b-2f53-40c7-9fc8-bf1b8ccc6424")
+	)
+	(wire
+		(pts
 			(xy 229.235 72.39) (xy 232.41 72.39)
 		)
 		(stroke
@@ -8324,7 +7716,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.145 173.99) (xy 145.415 173.99)
+			(xy 144.145 173.99) (xy 151.13 173.99)
 		)
 		(stroke
 			(width 0)
@@ -8481,6 +7873,16 @@
 			(type default)
 		)
 		(uuid "5efba305-738f-4908-a22f-9c69a5746753")
+	)
+	(wire
+		(pts
+			(xy 27.305 244.475) (xy 27.305 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f63d819-1e2f-471b-a1f6-e0834c0669ad")
 	)
 	(wire
 		(pts
@@ -8834,16 +8236,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.765 171.45) (xy 175.26 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fd195d0-2a3d-4644-ad4e-dad16843c130")
-	)
-	(wire
-		(pts
 			(xy 173.355 210.185) (xy 173.355 208.915)
 		)
 		(stroke
@@ -8934,7 +8326,7 @@
 	)
 	(wire
 		(pts
-			(xy 150.495 171.45) (xy 151.765 171.45)
+			(xy 172.085 171.45) (xy 175.26 171.45)
 		)
 		(stroke
 			(width 0)
@@ -9444,6 +8836,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.305 171.45) (xy 27.305 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e07ade6-01b1-4176-a946-03a6abb3906f")
+	)
+	(wire
+		(pts
 			(xy 93.345 171.45) (xy 70.485 171.45)
 		)
 		(stroke
@@ -9544,7 +8946,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.305 221.615) (xy 27.305 226.695)
+			(xy 27.305 224.155) (xy 27.305 226.695)
 		)
 		(stroke
 			(width 0)
@@ -9611,16 +9013,6 @@
 			(type default)
 		)
 		(uuid "95915683-2a53-4bb7-87fc-936e7224ed56")
-	)
-	(wire
-		(pts
-			(xy 32.385 238.125) (xy 32.385 244.475)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95a61767-a553-42b2-ba9c-c7ee859842f3")
 	)
 	(wire
 		(pts
@@ -9721,16 +9113,6 @@
 			(type default)
 		)
 		(uuid "9a0bf6d7-0a84-4976-ab8d-521088c627a0")
-	)
-	(wire
-		(pts
-			(xy 32.385 198.755) (xy 32.385 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a232dec-fe5d-4ed1-8bf8-ec310cae31c0")
 	)
 	(wire
 		(pts
@@ -9854,6 +9236,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.305 179.07) (xy 27.305 184.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1897cb6-c3d1-47ca-9fab-7c4ef0d9aaca")
+	)
+	(wire
+		(pts
 			(xy 189.865 40.64) (xy 189.865 42.545)
 		)
 		(stroke
@@ -9921,16 +9313,6 @@
 			(type default)
 		)
 		(uuid "a5d271ae-9cce-4409-afda-373a838c58ca")
-	)
-	(wire
-		(pts
-			(xy 32.385 179.07) (xy 32.385 184.785)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a66474a1-be45-4027-ad05-3d52f0acb404")
 	)
 	(wire
 		(pts
@@ -10284,6 +9666,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.305 221.615) (xy 27.305 224.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf29c686-e66e-4dcf-b799-766ef65813d7")
+	)
+	(wire
+		(pts
 			(xy 198.755 34.29) (xy 198.755 35.56)
 		)
 		(stroke
@@ -10624,16 +10016,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.345 153.67) (xy 93.345 155.575)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2fe7852-e725-4f7d-bdff-672745d2b049")
-	)
-	(wire
-		(pts
 			(xy 226.695 159.385) (xy 226.695 161.29)
 		)
 		(stroke
@@ -10844,6 +10226,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.345 160.655) (xy 88.9 160.655)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd4f8e41-9a04-4b1c-a453-6efa08c26e00")
+	)
+	(wire
+		(pts
 			(xy 219.71 116.205) (xy 245.11 116.205)
 		)
 		(stroke
@@ -10871,6 +10263,16 @@
 			(type default)
 		)
 		(uuid "de55269b-df2a-4335-a0f6-16c9c112252c")
+	)
+	(wire
+		(pts
+			(xy 144.145 171.45) (xy 151.13 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df37ee30-0037-47ae-8345-84a89853ee96")
 	)
 	(wire
 		(pts
@@ -11094,16 +10496,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 153.67) (xy 93.345 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee992666-5b32-4beb-b014-1e92a81b5e3e")
-	)
-	(wire
-		(pts
 			(xy 78.74 129.54) (xy 78.74 130.81)
 		)
 		(stroke
@@ -11211,16 +10603,6 @@
 			(type default)
 		)
 		(uuid "f680551a-7fa1-485d-933a-c0ed4778da7b")
-	)
-	(wire
-		(pts
-			(xy 32.385 218.44) (xy 32.385 224.155)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f72c7122-fe30-44f6-8e8d-fe8501e3e2c0")
 	)
 	(wire
 		(pts
@@ -12987,6 +12369,144 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 29.845 244.475 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "126e08b9-7212-4d3b-b1ca-6175271cd862")
+		(property "Reference" "NT329"
+			(at 27.305 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 27.305 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 29.845 244.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.845 244.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 29.845 244.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c9602a5-58e6-4f6b-be35-5bebac856433")
+		)
+		(pin "2"
+			(uuid "de3cf09a-cbd8-4bfe-b003-0444554d8f21")
+		)
+		(instances
+			(project "battery_pack"
+				(path "/3169906c-dcce-4761-b072-54530f8b9e50/ae47f521-a2a9-4995-ab61-abb7e14ccfeb"
+					(reference "NT329")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 29.845 184.785 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "1335bf0f-050c-44e8-bc80-6e8826172662")
+		(property "Reference" "NT320"
+			(at 27.305 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 27.305 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 29.845 184.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.845 184.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 29.845 184.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b87bb676-d153-4703-a8ae-808a179002ff")
+		)
+		(pin "2"
+			(uuid "9209f43a-52da-4436-8c24-99f9f5201e7a")
+		)
+		(instances
+			(project "battery_pack"
+				(path "/3169906c-dcce-4761-b072-54530f8b9e50/ae47f521-a2a9-4995-ab61-abb7e14ccfeb"
+					(reference "NT320")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 363.855 146.685 180)
 		(unit 1)
@@ -14092,6 +13612,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 29.845 204.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c212ea8-7002-4163-b4da-60ab5932ea4f")
+		(property "Reference" "NT322"
+			(at 27.305 208.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 27.305 206.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 29.845 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.845 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 29.845 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d4a83b3-fa06-485b-8d1c-b601e51bb1c1")
+		)
+		(pin "2"
+			(uuid "6053b43a-1146-4b7e-979b-71cafab3a14f")
+		)
+		(instances
+			(project "battery_pack"
+				(path "/3169906c-dcce-4761-b072-54530f8b9e50/ae47f521-a2a9-4995-ab61-abb7e14ccfeb"
+					(reference "NT322")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 101.6 224.79 0)
 		(unit 1)
@@ -14297,7 +13886,7 @@
 	)
 	(symbol
 		(lib_id "Daniel_NMOS:Q_NMOS_S2G2S1G1D1D2")
-		(at 305.435 82.55 0)
+		(at 309.245 81.28 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14305,7 +13894,7 @@
 		(dnp no)
 		(uuid "317a9c3c-37b4-4a95-bdfd-36b803568b67")
 		(property "Reference" "Q303"
-			(at 308.61 78.74 0)
+			(at 307.975 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14314,7 +13903,7 @@
 			)
 		)
 		(property "Value" "STL36DN6F7"
-			(at 308.61 80.6451 0)
+			(at 307.975 79.3751 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14323,7 +13912,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:ST_PowerFLAT-6L_5x6mm_P1.27mm"
-			(at 310.769 72.644 0)
+			(at 314.579 71.374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14332,7 +13921,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/389/stl36dn6f7-1851197.pdf"
-			(at 310.769 72.644 0)
+			(at 314.579 71.374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14341,7 +13930,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 310.769 72.644 0)
+			(at 314.579 71.374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14351,6 +13940,9 @@
 		)
 		(pin "5"
 			(uuid "4a4380b5-7c6e-43a9-9dfd-c06fdc6b8364")
+		)
+		(pin "8"
+			(uuid "eb8bde0b-ce14-4869-8cbf-1adde7353340")
 		)
 		(pin "3"
 			(uuid "a7e7e22a-2d3a-4aa0-a4ab-037d2445c09f")
@@ -14366,6 +13958,9 @@
 		)
 		(pin "7"
 			(uuid "ec1030d6-a868-4f96-b0be-18b9bc26ba69")
+		)
+		(pin "6"
+			(uuid "ad373246-1215-46a8-909c-b34607cdefe6")
 		)
 		(instances
 			(project ""
@@ -14657,9 +14252,8 @@
 		)
 	)
 	(symbol
-		(lib_name "Q_NMOS_S2G2S1G1D1D2_3")
 		(lib_id "Daniel_NMOS:Q_NMOS_S2G2S1G1D1D2")
-		(at 139.065 264.16 90)
+		(at 137.795 267.97 90)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
@@ -14668,7 +14262,7 @@
 		(dnp no)
 		(uuid "3650a22a-e560-4c00-a699-7a48524f0462")
 		(property "Reference" "Q309"
-			(at 140.335 269.875 90)
+			(at 139.065 269.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14676,7 +14270,7 @@
 			)
 		)
 		(property "Value" "STL36DN6F7"
-			(at 140.335 271.78 90)
+			(at 139.065 271.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14684,7 +14278,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:ST_PowerFLAT-6L_5x6mm_P1.27mm"
-			(at 129.159 269.494 0)
+			(at 127.889 273.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14693,7 +14287,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/389/stl36dn6f7-1851197.pdf"
-			(at 129.159 269.494 0)
+			(at 127.889 273.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14702,7 +14296,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.159 269.494 0)
+			(at 127.889 273.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14712,6 +14306,9 @@
 		)
 		(pin "5"
 			(uuid "4a4380b5-7c6e-43a9-9dfd-c06fdc6b8365")
+		)
+		(pin "8"
+			(uuid "e74f7921-bfdf-4352-bcbd-52e83ce7d851")
 		)
 		(pin "3"
 			(uuid "a7e7e22a-2d3a-4aa0-a4ab-037d2445c0a0")
@@ -14727,6 +14324,9 @@
 		)
 		(pin "7"
 			(uuid "04d19bc6-4c5f-42f4-bba6-600fa2d0d677")
+		)
+		(pin "6"
+			(uuid "ad373246-1215-46a8-909c-b34607cdefe7")
 		)
 		(instances
 			(project "battery_pack"
@@ -15090,75 +14690,6 @@
 			(project "battery_charging_devboard"
 				(path "/451b7129-01d5-46cf-a4e9-c4e0c27ff0b6/beffddf7-e895-42d7-ba8a-5d365171da10"
 					(reference "TP100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 93.345 158.115 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a9cec02-0c92-4bff-940e-c7f3643124ff")
-		(property "Reference" "NT2"
-			(at 97.79 160.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 95.25 160.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 93.345 158.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.345 158.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 93.345 158.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "279a63d7-e90e-41f3-a724-44885b6f7bb2")
-		)
-		(pin "2"
-			(uuid "273ba939-3fa2-4bb5-87ee-1eb026098a26")
-		)
-		(instances
-			(project "battery_pack"
-				(path "/3169906c-dcce-4761-b072-54530f8b9e50/ae47f521-a2a9-4995-ab61-abb7e14ccfeb"
-					(reference "NT2")
 					(unit 1)
 				)
 			)
@@ -15924,75 +15455,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 147.955 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "4de06cc2-2078-492b-ad33-262498132df0")
-		(property "Reference" "NT1"
-			(at 150.495 169.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 150.495 172.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 147.955 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.955 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 147.955 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b946314e-554f-49b3-86b4-4f3b2b505eda")
-		)
-		(pin "2"
-			(uuid "ce212562-816b-409a-8ada-703b7dc2e4c1")
-		)
-		(instances
-			(project "battery_pack"
-				(path "/3169906c-dcce-4761-b072-54530f8b9e50/ae47f521-a2a9-4995-ab61-abb7e14ccfeb"
-					(reference "NT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 313.69 73.66 90)
 		(unit 1)
@@ -16129,7 +15591,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Q_NMOS_S2G2S1G1D1D2_2")
+		(lib_name "Q_NMOS_S2G2S1G1D1D2_1")
 		(lib_id "Daniel_NMOS:Q_NMOS_S2G2S1G1D1D2")
 		(at 122.555 264.16 270)
 		(unit 1)
@@ -16186,6 +15648,9 @@
 		(pin "5"
 			(uuid "5e5858de-ffab-4921-9a92-96717c2014de")
 		)
+		(pin "8"
+			(uuid "eb8bde0b-ce14-4869-8cbf-1adde7353341")
+		)
 		(pin "3"
 			(uuid "1cf810b7-b3d2-4ec8-94ed-3991a4260133")
 		)
@@ -16200,6 +15665,9 @@
 		)
 		(pin "7"
 			(uuid "ec1030d6-a868-4f96-b0be-18b9bc26ba6a")
+		)
+		(pin "6"
+			(uuid "c90d4d27-3bf8-4060-94f4-edebdf2f9764")
 		)
 		(instances
 			(project "battery_pack"
@@ -16368,6 +15836,75 @@
 			(project "battery_pack"
 				(path "/3169906c-dcce-4761-b072-54530f8b9e50/ae47f521-a2a9-4995-ab61-abb7e14ccfeb"
 					(reference "Q307")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 29.845 224.155 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "51bfd5b9-2ff7-4eb5-9bb9-852a50dc3ddc")
+		(property "Reference" "NT325"
+			(at 27.305 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 27.305 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 29.845 224.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.845 224.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 29.845 224.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e13ca91-32cc-4477-b14e-e102e2b7aeac")
+		)
+		(pin "2"
+			(uuid "f60bf13b-2e61-4740-a9ea-a9f5f76417ae")
+		)
+		(instances
+			(project "battery_pack"
+				(path "/3169906c-dcce-4761-b072-54530f8b9e50/ae47f521-a2a9-4995-ab61-abb7e14ccfeb"
+					(reference "NT325")
 					(unit 1)
 				)
 			)
@@ -18839,6 +18376,75 @@
 			(project "power_supply"
 				(path "/3169906c-dcce-4761-b072-54530f8b9e50/ae47f521-a2a9-4995-ab61-abb7e14ccfeb"
 					(reference "R339")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 29.845 179.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "7949b5a8-d507-4fd4-9a4f-39a46ac7abb6")
+		(property "Reference" "NT319"
+			(at 27.305 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 27.305 180.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 29.845 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.845 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 29.845 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebfaff91-0aa6-4178-9e1d-6be32945578e")
+		)
+		(pin "2"
+			(uuid "1d7156ae-7665-4c9c-bf2d-1b597ad34682")
+		)
+		(instances
+			(project "battery_pack"
+				(path "/3169906c-dcce-4761-b072-54530f8b9e50/ae47f521-a2a9-4995-ab61-abb7e14ccfeb"
+					(reference "NT319")
 					(unit 1)
 				)
 			)
@@ -21432,7 +21038,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 147.955 171.45 0)
+		(at 169.545 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -21440,7 +21046,7 @@
 		(dnp no)
 		(uuid "984fc2c1-93d1-4b05-9b2c-20670adfe859")
 		(property "Reference" "NT318"
-			(at 150.495 167.005 0)
+			(at 172.085 167.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21449,7 +21055,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 150.495 169.545 0)
+			(at 172.085 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21458,7 +21064,7 @@
 			)
 		)
 		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 147.955 171.45 0)
+			(at 169.545 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21467,7 +21073,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.955 171.45 0)
+			(at 169.545 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21476,7 +21082,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 147.955 171.45 0)
+			(at 169.545 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23035,6 +22641,9 @@
 		(pin "5"
 			(uuid "4a4380b5-7c6e-43a9-9dfd-c06fdc6b8366")
 		)
+		(pin "8"
+			(uuid "eb8bde0b-ce14-4869-8cbf-1adde7353342")
+		)
 		(pin "3"
 			(uuid "a7e7e22a-2d3a-4aa0-a4ab-037d2445c0a1")
 		)
@@ -23049,6 +22658,9 @@
 		)
 		(pin "7"
 			(uuid "ec1030d6-a868-4f96-b0be-18b9bc26ba6b")
+		)
+		(pin "6"
+			(uuid "ad373246-1215-46a8-909c-b34607cdefe8")
 		)
 		(instances
 			(project ""
